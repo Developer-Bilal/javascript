@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* border: 1px solid red; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    /* border: 1px solid green; */
+    align-items: center;
+    justify-content: center;
+}
+
+#main-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+#count-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10rem;
+}
+
+#increment-btn {
+    margin-top: 1rem;
+    font-size: 3rem;
+    width: 25rem;
+    border-radius: 6px;
+    cursor: pointer;
+    /* display: flex;
+    text-align: center;
+    justify-content: center; */
+    background-color: crimson;
+    color: white;
+    border-color: transparent;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+#increment-btn:hover {
+    background-color: white;
+    color: crimson;
+    border-color: crimson;
+}
+
+#save-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 3rem;
+    width: 25rem;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+    border-color: transparent;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+#save-btn:hover {
+    background-color: white;
+    color: crimson;
+    border-color: crimson;
+}
+
+#save-record {
+    width: 25rem;
+    /* border: 1px solid red; */
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
